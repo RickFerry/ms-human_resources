@@ -1,4 +1,4 @@
-package br.com.humanresources.hrworker.hrworker;
+package br.com.humanresources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,4 @@ public class HrWorkerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(HrWorkerApplication.class, args);
 	}
-
 }
