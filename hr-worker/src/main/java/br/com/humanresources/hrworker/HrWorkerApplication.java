@@ -1,4 +1,4 @@
-package br.com.humanresources;
+package br.com.humanresources.hrworker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

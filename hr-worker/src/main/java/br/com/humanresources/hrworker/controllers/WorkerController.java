@@ -1,4 +1,4 @@
-package br.com.humanresources.controllers;
+package br.com.humanresources.hrworker.controllers;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.humanresources.models.Worker;
-import br.com.humanresources.services.WorkerService;
+import br.com.humanresources.hrworker.models.Worker;
+import br.com.humanresources.hrworker.services.WorkerService;
 import lombok.AllArgsConstructor;
 
 @RestController

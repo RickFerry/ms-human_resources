@@ -1,4 +1,4 @@
-package br.com.humanresources.models;
+package br.com.humanresources.hrworker.models;
 
 
 import java.io.Serializable;

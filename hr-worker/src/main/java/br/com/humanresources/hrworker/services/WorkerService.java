@@ -1,4 +1,4 @@
-package br.com.humanresources.services;
+package br.com.humanresources.hrworker.services;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import javax.persistence.EntityNotFoundException;
 
 import org.springframework.stereotype.Service;
 
-import br.com.humanresources.models.Worker;
-import br.com.humanresources.repositorys.WorkerRepository;
+import br.com.humanresources.hrworker.models.Worker;
+import br.com.humanresources.hrworker.repositorys.WorkerRepository;
 import lombok.AllArgsConstructor;
 
 @Service
