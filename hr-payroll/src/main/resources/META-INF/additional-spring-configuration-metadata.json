@@ -1,5 +1,27 @@
-{"properties": [{
-  "name": "hr-worker.host",
-  "type": "java.lang.String",
-  "description": "A description for 'hr-worker.host'"
-}]}
+{"properties": [
+  {
+    "name": "hr-worker.host",
+    "type": "java.lang.String",
+    "description": "A description for 'hr-worker.host'"
+  },
+  {
+    "name": "hr-work.ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'hr-work.ribbon.listOfServers'"
+  },
+  {
+    "name": "hr-work.ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'hr-work.ribbon.listOfServers'"
+  },
+  {
+    "name": "hr-worker.ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'hr-worker.ribbon.listOfServers'"
+  },
+  {
+    "name": "hr-worker.ribbon.listOfServers",
+    "type": "java.lang.String",
+    "description": "A description for 'hr-worker.ribbon.listOfServers'"
+  }
+]}
