@@ -2,6 +2,7 @@ package br.com.humanresources.hrworker.controllers;
 
 import java.util.List;
 
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -12,6 +13,7 @@ import br.com.humanresources.hrworker.models.Worker;
 import br.com.humanresources.hrworker.services.WorkerService;
 import lombok.AllArgsConstructor;
 
+@RefreshScope
 @RestController
 @AllArgsConstructor
 @RequestMapping("/workers")
