@@ -13,5 +13,15 @@
     "name": "ribbon.ConnectTimeout",
     "type": "java.lang.String",
     "description": "A description for 'ribbon.ConnectTimeout'"
+  },
+  {
+    "name": "spring.cloud.config.server.git.password",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.server.git.password'"
+  },
+  {
+    "name": "spring.cloud.config.server.git.username",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.cloud.config.server.git.username'"
   }
 ]}
