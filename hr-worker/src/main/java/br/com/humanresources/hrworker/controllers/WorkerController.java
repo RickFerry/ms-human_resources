@@ -37,18 +37,15 @@ public class WorkerController {
 	}
 
 	@PostMapping
-	@Transactional
 	public ResponseEntity<Worker> save(@RequestBody Worker worker) {
 		return ResponseEntity.ok(workerService.save(worker));
 	}
 
 	@PutMapping
-	@Transactional
 	public ResponseEntity<Worker> update(@RequestBody Worker worker) {
 		return ResponseEntity.ok(workerService.update(worker));
 	}
 
-	@Transactional
 	@DeleteMapping("/{id}")
 	public ResponseEntity<Void> delete(@PathVariable Long id) {
 		workerService.delete(id);
